@@ -1,0 +1,42 @@
+# Compiled binary
+*.exe
+*.out
+*.dll
+*.dylib
+
+# Dependency directories
+/vendor/
+/go.sum
+/go.sum.tmp
+
+# Testing
+/test-results/
+
+# Output of the go coverage tool
+/coverage.txt
+
+# JetBrains IDEs
+.idea/
+
+# GoLand
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Binary
+/bin/
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# Go binary
+*.test
+
+# .env file
+.env
+
+# Log files
+*.log
