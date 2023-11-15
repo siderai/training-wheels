@@ -3,8 +3,8 @@ package main
 import (
 	"database/sql"
 	"fitness-app/internal/app/controller"
+	"fitness-app/internal/app/repository"
 	"fitness-app/internal/app/service"
-	"fitness-app/internal/repository"
 	"fmt"
 	"log"
 	"net/http"
